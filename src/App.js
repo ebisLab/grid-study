@@ -1,5 +1,5 @@
 import Layout2 from './Layout2.js'
-import './App.css';
+// import './App.css';
 
 function App() {
   return (

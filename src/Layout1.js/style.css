@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
     display: grid;
     /* grid-template-columns: 300px 300px 300px; */
-    grid-template-columns: repeat(6, 1fr); /*1fr of 900px (equal share) noticed this is more responsive*/
+    grid-template-columns: repeat(3, 1fr); /*1fr of 900px (equal share) noticed this is more responsive*/
     grid-template-rows: 100px 200px 300px;
     gap: 10px;
     align-items: stretch; /*same as jusitfy-items so dont need this part*/
