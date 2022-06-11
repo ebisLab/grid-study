@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+
+body {
+  margin: 30px;
+  font-family: "Poppins";
+}
+
+.grid-container {
+    background: #eee;
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-columns: 300px 300px 300px; */
+    grid-template-columns: repeat(6, 1fr); /*1fr of 900px (equal share) noticed this is more responsive*/
+    grid-template-rows: 100px 200px 300px;
+    gap: 10px;
+    align-items: stretch; /*same as jusitfy-items so dont need this part*/
+    justify-items: stretch; /*default is stretch to take up the full width */
+}
+
+.grid-container > div {
+    background: #ccc;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #777
+}
+
+.grid-container > div:nth-child(1) {
+grid-column: 1/ span 2; /*start at position 1 where we want it to end or how wide it is*/
+}
+
+.grid-container > div:nth-child(2) {
+    /*same as 3/ span 3*/
+    grid-column: span 3; /*havent added start position, it automatically starts at the next available position*/
+}
+
+.grid-container > div:nth-child(3) {
+    grid-column: span 1; /*it automatically spans at grid 1*/
+}
+
+.grid-container > div:nth-child(4) {
+    grid-column:  2 / 6;
+    /* height: 200px; */
+    }
+.grid-container > div:nth-child(5) {
+    grid-column: span 3; /*spans all the way to the next row since there's no space*/
+}
+
+.grid-container > div:nth-child(6) {
+    grid-column: span 3;
+}
