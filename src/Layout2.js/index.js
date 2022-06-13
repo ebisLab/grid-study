@@ -5,7 +5,7 @@ import image from './img/1.png'
 export default function index() {
   return (
     <div>
-        <header>Ebi The Navigator</header>
+        <header><h1>Ebi The Navigator</h1></header>
         <main className="grid-container">
             <article className="featured">
                 <img src={image} alt="interesting1" />
