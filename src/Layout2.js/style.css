@@ -10,16 +10,20 @@ ul, li {
   list-style-type: none;
 }
 h1,h2,h3 {
-  color: #767f7e;
+  color: #394447
+  /* color: #767f7e; */
 }
 p {
-  color: #828b8a;
+  /* color: #828b8a; */
+  color: #3C474A
 }
 
 header {
     max-width: 1200px;
     margin: 40px auto; /*40px top and bottom*/
-    border-bottom: 1px solid #bbc7c7;
+    /* border-bottom: 1px solid #bbc7c7; */
+    border-bottom: 1px solid #D2DFDE;
+
 }
 
 .grid-container {
