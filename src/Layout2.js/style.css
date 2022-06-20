@@ -54,7 +54,7 @@ article p, article h3 {
   margin: 20px 10px;
 }
 
-/*responsive*/
+/*responsiveness*/
 @media screen and (max-width: 980px) {
   article{
     grid-column: span 3;
